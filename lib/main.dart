@@ -1,19 +1,20 @@
 // ignore_for_file: avoid_unnecessary_containers, camel_case_types, prefer_interpolation_to_compose_strings, curly_braces_in_flow_control_structures, prefer_const_constructors_in_immutables, prefer_const_constructors
-
+// Import all the necessary packages for the project.
 import 'dart:math';
 
 import 'package:flutter/material.dart';
-
+//Main function starts
 void main() => runApp(myApp());
 
+//stateless widget for myApp()
 class myApp extends StatelessWidget {
   const myApp({super.key});
 
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      debugShowCheckedModeBanner: false,
-      home: calculator(),
+      debugShowCheckedModeBanner: false,  // To remove the Debug banner from the app emulator screen
+      home: calculator(), // Calling the calculator function where all the operation occurs
     );
   }
 }
@@ -26,11 +27,13 @@ class calculator extends StatefulWidget {
 }
 
 class _calculatorState extends State<calculator> {
+  // Declaring and Initializing the necessary variables  
   String numtext = "";
   String rand = "";
   int count = 0;
   String dob = "";
-
+  
+  // Random function used for generating a random number Range(1-1000)
   String random() {
     var rng = Random();
     for (var i = 0; i < 10; i++) {
@@ -39,6 +42,7 @@ class _calculatorState extends State<calculator> {
     return rand;
   }
 
+  // Calculator UI
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -61,7 +65,6 @@ class _calculatorState extends State<calculator> {
               height: 300,
               width: 380,
               child: ListView(
-                  // scrollDirection: Axis.horizontal,
                   reverse: true,
                   physics: const BouncingScrollPhysics(),
                   children: [
@@ -92,9 +95,6 @@ class _calculatorState extends State<calculator> {
                 Column(
                   mainAxisAlignment: MainAxisAlignment.spaceEvenly,
                 ),
-                // const SizedBox(
-                //   height: 5,
-                // ),
                 Column(
                   mainAxisAlignment: MainAxisAlignment.spaceEvenly,
                   children: [
@@ -156,6 +156,7 @@ class _calculatorState extends State<calculator> {
     );
   }
 
+  // Calculation function
   Widget blocks(String text, [Color? color]) {
     return GestureDetector(
       onTap: () {
