@@ -1,8 +1,8 @@
 // ignore_for_file: avoid_unnecessary_containers, camel_case_types, prefer_interpolation_to_compose_strings, curly_braces_in_flow_control_structures, prefer_const_constructors_in_immutables, prefer_const_constructors
 // Import all the necessary packages for the project.
 import 'dart:math';
-
 import 'package:flutter/material.dart';
+
 //Main function starts
 void main() => runApp(myApp());
 
