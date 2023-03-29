@@ -1,6 +1,6 @@
 ## Magic Calculator
 
-The Magic Calculator is a Flutter project that predicts the date of birth of a person using complex calculations. It uses a unique algorithm to determine the date of birth based on the user's input.
+_The Magic Calculator is a Flutter project that predicts the date of birth of a person using complex calculations. It uses a unique algorithm to determine the date of birth based on the user's input._
 
 ## Features
 The Magic Calculator has the following features:
@@ -11,8 +11,9 @@ The Magic Calculator has the following features:
 * Easy to use
 
 ## Project Preview 
-![WhatsApp Image 2023-03-29 at 10 14 38 AM](https://user-images.githubusercontent.com/79778565/228429477-9fc4cb74-1898-406e-b2f0-df592a901798.jpeg)
-![WhatsApp Image 2023-03-29 at 10 14 37 AM](https://user-images.githubusercontent.com/79778565/228429515-5a648e37-7d85-4a09-9e67-6607035be60f.jpeg)
+<img src="https://user-images.githubusercontent.com/79778565/228429477-9fc4cb74-1898-406e-b2f0-df592a901798.jpeg"  width="200" height="400"/>
+<img src="https://user-images.githubusercontent.com/79778565/228429515-5a648e37-7d85-4a09-9e67-6607035be60f.jpeg"  width="200" height="400"/>
+
 
 ## Getting Started
 To get started with the Magic Calculator, follow the steps below:
