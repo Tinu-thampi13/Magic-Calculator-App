@@ -11,9 +11,10 @@ The Magic Calculator has the following features:
 * Easy to use
 
 ## Project Preview 
-<img src="https://user-images.githubusercontent.com/79778565/228429477-9fc4cb74-1898-406e-b2f0-df592a901798.jpeg"  width="200" height="400"/>
+ <p float="left">
+<img src="https://user-images.githubusercontent.com/79778565/228429477-9fc4cb74-1898-406e-b2f0-df592a901798.jpeg"  width="200" height="400" hspace="20"/>
 <img src="https://user-images.githubusercontent.com/79778565/228429515-5a648e37-7d85-4a09-9e67-6607035be60f.jpeg"  width="200" height="400"/>
-
+</p>
 
 ## Getting Started
 To get started with the Magic Calculator, follow the steps below:
